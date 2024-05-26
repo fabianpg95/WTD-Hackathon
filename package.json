@@ -1,0 +1,18 @@
+{
+  "name": "openai-wtd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wtd": "node src/utils/openai.js",
+    "wtd2": "node src/utils/openai.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "openai": "^4.47.1"
+  }
+}

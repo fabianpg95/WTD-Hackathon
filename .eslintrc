@@ -1,0 +1,50 @@
+{
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "plugins": [
+      "mocha"
+    ],
+    "extends": [
+      "eslint:recommended"
+    ],
+    "rules": {
+      "semi" : [2, "always"],
+      "space-before-function-paren": ["error", "always"],
+      "mocha/no-mocha-arrows": "error",
+      "eol-last": 1,
+      "mocha/no-exclusive-tests": "error",
+      "no-trailing-spaces": [2, { "skipBlankLines": true }],
+      "no-await-in-loop": 0,
+      "no-param-reassign": 0,
+      "func-names": 0,
+      "no-shadow": [2, {"allow": ["err", "done", "user", "data", "options"]}],
+      "no-unused-vars": [2, {"vars": "all", "args": "after-used", "argsIgnorePattern": "next|options|res"}],
+      "new-cap": [2, {"capIsNewExceptions": ["Router","Promise"]}],
+      "no-else-return": 0,
+      "no-underscore-dangle": 0,
+      "strict": [0, "global"],
+      "global-require": 0,
+      "no-continue": 0,
+      "class-methods-use-this": 0,
+      "max-len": [2, { "ignoreComments": true, "code": 500 }],
+      "valid-jsdoc": "error",
+      "arrow-parens": 0,
+      "import/no-extraneous-dependencies": ["off"],
+      "import/extensions": 0,
+      "comma-dangle": ["warn", {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "ignore"
+      }]
+    }
+  }
+  

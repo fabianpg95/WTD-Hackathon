@@ -1,0 +1,123 @@
+Since I can't create and provide downloadable files directly, I'll provide you with the data in a format that can be easily copied and pasted into an Excel spreadsheet. Here are the email addresses as requested:
+
+```plaintext
+VALID:
+valid1@example.com
+valid2@test.net
+valid3@domain.org
+valid4@company.com
+valid5@service.io
+valid6@provider.edu
+valid7@business.co
+valid8@nonprofit.us
+valid9@gov.agency
+valid10@research.institute
+
+INVALID DOMAIN:
+user1@invalid_domain
+user2@wrongdomain
+user3@incorrect_domain
+user4@.com
+user5@domain_with_no_tld
+user6@domain-with-invalid-characters_!
+user7@domain-with-space .com
+user8@domain-with-dot.
+user9@after_period_
+user10@domain@domain.com
+
+INVALID USERNAME:
+invalid_username!@example.com
+invalid.username@domain.com
+@domain.com
+john*d@example.com
+;user@domain.com
+<user>@domain.com
+user_@invalid_domain.com
+user@domain_with_multidots...com
+user@which*is*invalid.com
+user%@example.com
+
+MISSING USERNAME:
+@example.com
+@domain.net
+@company.org
+@organization.com
+@service.net
+@provider.info
+@institution.edu
+@agency.gov
+@nonprofit.org
+@institute.biz
+
+MISSING @ SYMBOL:
+missingatsymbol.com
+userexample.com
+user.example.com
+user_example.com
+user-example.com
+user example.com
+user!example.com
+user#example.com
+user$example.com
+user%example.com
+
+MISSING DOMAIN:
+username@
+user1@
+example@
+test@
+email@
+user-name@
+user_name@
+user.name@
+user+name@
+username@.
+
+INCOMPLETE DOMAIN:
+user@domain
+user@domain.c
+user@domain.i
+user@domain.x
+user@domain.q
+user@domain.u
+user@domain.re
+user@domain.biz
+user@domain.co.
+user@domain.ab
+
+SPECIAL CHARACTERS:
+user!name@example.com
+user$name@example.com
+user%name@example.com
+user~name@example.com
+user&name@example.com
+user*name@example.com
+user#name@example.com
+user^name@example.com
+user+name@example.com
+user=name@example.com
+
+LONG USERNAME:
+usernameuseruseruseruseruseruseruseru@example.com
+aaaaaaaaaaaaaaaaaaaaaaa@example.com
+bbbbbbbbbbbbbbbbbbbbbbbbb@example.com
+ccccccccccccccccccccccccc@example.com
+ddddddddddddddddddddddddd@example.com
+eeeeeeeeeeeeeeeeeeeeeeeee@example.com
+ffffffffffffffffffffffff@example.com
+ggggggggggggggggggggggggg@example.com
+hhhhhhhhhhhhhhhhhhhhhhhhh@example.com
+iiiiiiiiiiiiiiiiiiiiiiiii@example.com
+
+LONG DOMAIN:
+user@reallylongdomainnamethatgoesonforeverandeverandever.com
+user@extremelylongdomainnamethatisridiculous.com
+user@insanelylongdomainnamejusttogetthepointacross.com
+user@overlylongdomainwaypastareasonablelength.com
+user@domainnamethatitisexcessivethatslong.com
+user@domainthatdoesnotwanttoendverylong.com
+user@areallyoverlyextremelylongdomainname.com
+user@longdomainnamethatmakesnosense.com
+user@anotherunnecessarilylongdomainname.com
+user@yetanotheroverlyextendeddomainname.com
+```
