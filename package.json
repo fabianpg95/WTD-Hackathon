@@ -4,9 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "wtd": "node src/utils/openai.js",
-    "wtd2": "node src/utils/openai.js"
+    "generate-access-tokens": "node src/prompts/generate-data/access-token-types.js",
+    "generate-date-types": "node src/prompts/generate-data/date-types.js",
+    "generate-email-types": "node src/prompts/generate-data/email-types.js",
+    "generate-test-data": "node src/prompts/generate-data/test-data.js",
+    "read-complex-content": "node src/prompts/read-content/read-complex-content.js",
+    "read-large-file": "node src/prompts/read-content/read-large-file.js",
+    "create-gherkins": "node src/prompts/transform-data/create-gherkins.js",
+    "create-test-cases": "node src/prompts/transform-data/create-test-cases.js"
   },
   "keywords": [],
   "author": "",

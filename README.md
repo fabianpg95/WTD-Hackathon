@@ -14,13 +14,14 @@
 
 ## Table of Contents
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Description](#description) ::pencil2:
+- [Installation](#installation) ::electric_plug:
+- [Usage](#usage) ::computer:
 - [Contributing](#contributing)
-- [License](#license)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgments)
+- [License](#license) ::page_with_curl:
+- [Authors](#authors) ::busts_in_silhouette:
+- [Acknowledgments](#acknowledgments) : :pray:
+
 ___
 ## Description
 
@@ -46,25 +47,63 @@ ___
 └── README.md                        # Project documentation.
 ```
 
-The project is a versatile tool designed to streamline various aspects of software quality assurance processes. Leveraging the OpenAI API, it offers functionalities tailored to the needs of software quality engineers, aiding in the generation of custom test data, reading complex or extensive content from files, and transforming data formats and content as required.
+The project is a versatile tool designed to streamline various aspects of software quality assurance processes. Leveraging the OpenAI API, it offers functionalities tailored to the needs of software quality engineers, aiding in the generation of **custom test data**, **reading complex or extensive content** from files, and **transforming data formats and content** as required.
 
 ### **Key Features:**
 
-**Data Generation:** The project provides a prompt-driven interface for generating diverse sets of test data. Users can specify their requirements and obtain tailored data outputs suitable for testing various scenarios.
+- [ ] **Data Generation:** The project provides a prompt-driven interface for generating diverse sets of test data. Users can specify their requirements and obtain tailored data outputs suitable for testing various scenarios.
 
-**Content Reading:** With the ability to parse and comprehend complex or extensive content from files, the project enables software quality engineers to efficiently extract relevant information for testing purposes.
+- [ ] **Content Reading:** With the ability to parse and comprehend complex or extensive content from files, the project enables software quality engineers to efficiently extract relevant information for testing purposes.
 
-**Format Transformation:** Facilitating the conversion of data formats and content, the project empowers users to adapt information to different contexts or systems seamlessly. This feature enhances flexibility and interoperability in testing workflows.
+- [ ] **Format Transformation:** Facilitating the conversion of data formats and content, the project empowers users to adapt information to different contexts or systems seamlessly. This feature enhances flexibility and interoperability in testing workflows.
 
 ### Components:
 
-Source Code Directory (/src): Houses the core functionalities of the project, including modules for prompts, data generation, content reading, and format transformation.
+- Source Code Directory (/src): Houses the core functionalities of the project, including modules for prompts, data generation, content reading, and format transformation.
 
-Utility Modules (/utils): Contains essential utility modules such as file.js, facilitating file operations, and openai.js, enabling interaction with the OpenAI API.
+- Utility Modules (/utils): Contains essential utility modules such as file.js, facilitating file operations, and openai.js, enabling interaction with the OpenAI API.
 ___
 ## Usage
 
-The project caters not only to software quality engineers but also to other team members with technical or non-technical backgrounds. By providing intuitive prompts and a user-friendly interface, it democratizes access to sophisticated testing capabilities, ultimately enhancing collaboration and efficiency within the software development lifecycle.
+### Usage:
+
+To run any of the commands listed below, open your terminal and navigate to the root directory of your project. Then, simply execute the corresponding npm script command.
+
+
+1. **generate-access-tokens**:
+   - **Description**: This command generates access tokens using predefined types.
+   - **Command**: `npm run generate-access-tokens`
+
+2. **generate-date-types**:
+   - **Description**: This command generates date types.
+   - **Command**: `npm run generate-date-types`
+
+3. **generate-email-types**:
+   - **Description**: This command generates email types.
+   - **Command**: `npm run generate-email-types`
+
+4. **generate-test-data**:
+   - **Description**: This command generates test data.
+   - **Command**: `npm run generate-test-data`
+
+5. **read-complex-content**:
+   - **Description**: This command reads complex content from files.
+   - **Command**: `npm run read-complex-content`
+
+6. **read-large-file**:
+   - **Description**: This command reads large files.
+   - **Command**: `npm run read-large-file`
+
+7. **create-gherkins**:
+   - **Description**: This command creates Gherkin files.
+   - **Command**: `npm run create-gherkins`
+
+8. **create-test-cases**:
+   - **Description**: This command creates test cases.
+   - **Command**: `npm run create-test-cases`
+
+
+
 
 #### Environment Configuration:
 
