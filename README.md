@@ -70,37 +70,37 @@ ___
 To run any of the commands listed below, open your terminal and navigate to the root directory of your project. Then, simply execute the corresponding npm script command.
 
 
-1. **generate-access-tokens**:
+1. **node generate-access-tokens**:
    - **Description**: This command generates access tokens using predefined types.
    - **Command**: `npm run generate-access-tokens`
 
-2. **generate-date-types**:
+2. **node generate-date-types**:
    - **Description**: This command generates date types.
    - **Command**: `npm run generate-date-types`
 
 3. **generate-email-types**:
    - **Description**: This command generates email types.
-   - **Command**: `npm run generate-email-types`
+   - **Command**: `node generate-email-types`
 
 4. **generate-test-data**:
    - **Description**: This command generates test data.
-   - **Command**: `npm run generate-test-data`
+   - **Command**: `node generate-test-data`
 
 5. **read-complex-content**:
    - **Description**: This command reads complex content from files.
-   - **Command**: `npm run read-complex-content`
+   - **Command**: `node read-complex-content`
 
 6. **read-large-file**:
    - **Description**: This command reads large files.
-   - **Command**: `npm run read-large-file`
+   - **Command**: `node read-large-file`
 
 7. **create-gherkins**:
    - **Description**: This command creates Gherkin files.
-   - **Command**: `npm run create-gherkins`
+   - **Command**: `node create-gherkins`
 
 8. **create-test-cases**:
    - **Description**: This command creates test cases.
-   - **Command**: `npm run create-test-cases`
+   - **Command**: `node create-test-cases`
 
 
 
