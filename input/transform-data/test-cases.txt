@@ -1,0 +1,84 @@
+Shopping Cart - Add Item
+
+Description: Verify user can add an item to the shopping cart.
+Preconditions: User is on the product page.
+Steps:
+Select a product.
+Click on the "Add to Cart" button.
+Expected Result: The item is added to the cart and the cart count is updated.
+Shopping Cart - Remove Item
+
+Description: Verify user can remove an item from the shopping cart.
+Preconditions: User has at least one item in the cart.
+Steps:
+Go to the shopping cart page.
+Click on the "Remove" button next to an item.
+Expected Result: The item is removed from the cart and the cart count is updated.
+Checkout - Valid Payment
+
+Description: Verify user can complete a purchase with valid payment details.
+Preconditions: User has items in the shopping cart.
+Steps:
+Go to the checkout page.
+Enter valid payment details.
+Click on the "Place Order" button.
+Expected Result: The order is placed successfully and a confirmation message is displayed.
+Checkout - Invalid Payment
+
+Description: Verify error message is shown for invalid payment details.
+Preconditions: User has items in the shopping cart.
+Steps:
+Go to the checkout page.
+Enter invalid payment details.
+Click on the "Place Order" button.
+Expected Result: An error message "Invalid payment details" is displayed.
+Product Search - Filter by Category
+
+Description: Verify user can filter search results by category.
+Preconditions: User is on the search results page.
+Steps:
+Enter a search query.
+Select a category from the filter options.
+Expected Result: Search results are filtered by the selected category.
+Product Search - Sort by Price
+
+Description: Verify user can sort search results by price.
+Preconditions: User is on the search results page.
+Steps:
+Enter a search query.
+Select "Sort by Price" from the sort options.
+Expected Result: Search results are sorted by price in ascending order.
+User Profile - Change Password
+
+Description: Verify user can change their password.
+Preconditions: User is logged in and on the profile settings page.
+Steps:
+Enter current password.
+Enter new password.
+Confirm new password.
+Click on the "Change Password" button.
+Expected Result: Password is changed successfully and a confirmation message is displayed.
+User Profile - Update Address
+
+Description: Verify user can update their address.
+Preconditions: User is logged in and on the profile settings page.
+Steps:
+Enter new address details.
+Click on the "Save Address" button.
+Expected Result: Address is updated successfully and a confirmation message is displayed.
+Notification Settings - Enable Email Notifications
+
+Description: Verify user can enable email notifications.
+Preconditions: User is logged in and on the notification settings page.
+Steps:
+Toggle the email notifications switch to "On".
+Click on the "Save Settings" button.
+Expected Result: Email notifications are enabled and a confirmation message is displayed.
+Notification Settings - Disable Push Notifications
+
+Description: Verify user can disable push notifications.
+Preconditions: User is logged in and on the notification settings page.
+Steps:
+Toggle the push notifications switch to "Off".
+Click on the "Save Settings" button.
+Expected Result: Push notifications are disabled and a confirmation message is displayed.

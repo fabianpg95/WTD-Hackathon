@@ -33,6 +33,7 @@ const messages = [
 console.log("Starting to generate response...");
 
 // Ensure the output directory exists
+const outputDir = path.join(__dirname, '..', '..', folderNameResults);
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir);
 }
